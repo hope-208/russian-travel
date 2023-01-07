@@ -1,0 +1,8 @@
+.page {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Inter", Arial, sans-serif;
+  background-color: #2A2C2F;
+  border: 1px solid red;
+}
