@@ -1,6 +1,6 @@
 .header__logo {
-    border: 1px solid red;
     display: flex;
+    box-sizing: border-box;
     min-width: 146px;
     max-width: 176px;
     width: 100%;

@@ -1,3 +1,11 @@
 .places {
-    border: 1px solid red;
+    display: flex;
+    max-width: 984px;
+    min-width: 320px;
+    list-style-type: none;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-direction: column;
+    margin: 0 auto 92px;
+    padding: 0;
 }

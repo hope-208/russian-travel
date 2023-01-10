@@ -1,6 +1,4 @@
 .header__lang-link_language-ru {
-    border: 1px solid red;
-    display: flex;
-    text-decoration: none;
     text-decoration-line: underline;
+    box-sizing: border-box;
 }

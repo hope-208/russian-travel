@@ -1,3 +1,10 @@
 .website {
-    border: 1px solid red;
+    grid-area: 1 / 2;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-self: end;
+    justify-items: flex-start;
+    align-items: flex-end;
+    
 }

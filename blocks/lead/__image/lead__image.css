@@ -1,3 +1,7 @@
 .lead__image {
-    border: 1px solid red;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 8px;
 }

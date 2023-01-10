@@ -1,3 +1,8 @@
 .intro {
-    border: 1px solid red;
+    display: flex;
+    max-width: 984px;
+    box-sizing: content-box;
+    flex-direction: column;
+    justify-content: left;
+    margin: 0 auto 92px;
 }

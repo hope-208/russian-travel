@@ -1,3 +1,17 @@
 .lead__title {
-    border: 1px solid red;
+  display: flex;  
+  margin-block: 0;
+  margin-inline: 0;
+  margin: 0;
+  padding: 0;
+  max-width: 720px;
+  align-self: center;
+  box-sizing: border-box;
+  color: white;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  margin-bottom: 32px;
 }
