@@ -1,7 +1,6 @@
 .header__lang-link {
     display: flex;
-    height: 57%;
-    box-sizing: content-box;
+    box-sizing: border-box;
     text-decoration: none;
     color: white;
     font-style: normal;

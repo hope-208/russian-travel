@@ -22,7 +22,7 @@
 
 .footer__link_nav:hover {
     opacity: 0.8;
-    cursor: url(../images/Pointer.png) 2 2,
-        url(../images/Pointer.svg) 2 2,
+    cursor: url(/images/sprint-3-images/Pointer.png) 2 2,
+        url(/images/sprint-3-images/Pointer.svg) 2 2,
 		pointer;
 }
