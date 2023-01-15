@@ -1,28 +1,30 @@
-.footer__link_nav {    
-    justify-items: start;
-    text-decoration: none;
-    margin-block: 0;
-    margin-inline: 0;
-    margin: 0;
-    padding: 0;
-    width: fit-content;
-    max-height: 18px;
-    box-sizing: border-box;
-    color: white;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
-    margin-right: 18px;
+.footer__link_nav {
+  justify-items: start;
+  text-decoration: none;
+  margin-block: 0;
+  margin-inline: 0;
+  margin: 0;
+  padding: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-height: 18px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  margin-right: 18px;
 }
 
 .footer__link_nav:last-of-type {
-    margin: 0;
+  margin: 0;
 }
 
 .footer__link_nav:hover {
-    opacity: 0.8;
-    cursor: url(/images/sprint-3-images/Pointer.png) 2 2,
-        url(/images/sprint-3-images/Pointer.svg) 2 2,
-		pointer;
+  opacity: 0.8;
+  cursor: url(images/sprint-3-images/Pointer.png) 2 2,
+    url(images/sprint-3-images/Pointer.svg) 2 2, pointer;
 }

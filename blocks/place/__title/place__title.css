@@ -1,17 +1,20 @@
 .place__title {
-    margin-block: 0;
-    margin-inline: 0;
-    margin: 0;
-    padding: 0;
-    max-width: 460px;
-    width: 100%;
-    min-height: 76px;
-    max-height: 156px;
-    box-sizing: border-box;
-    color: white;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 76px;
-    grid-area: 1 / 1;
+  margin-block: 0;
+  margin-inline: 0;
+  margin: 0;
+  padding: 0;
+  max-width: 460px;
+  width: 100%;
+  min-height: 76px;
+  max-height: 156px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: white;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: 1 / 1;
 }

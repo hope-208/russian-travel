@@ -1,12 +1,17 @@
 .footer__link {
-    grid-row: 1;
-    grid-column: 1;
-    justify-items: start;
-    margin-block: 0;
-    margin-inline: 0;
-    margin: 0;
-    padding: 0;
-    width: fit-content;
-    max-height: 18px;
-    box-sizing: border-box;    
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 1;
+  grid-column: 1;
+  justify-items: start;
+  margin-block: 0;
+  margin-inline: 0;
+  margin: 0;
+  padding: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-height: 18px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }

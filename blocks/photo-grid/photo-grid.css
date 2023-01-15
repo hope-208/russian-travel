@@ -1,8 +1,10 @@
 .photo-grid {
-    display: grid;
-    max-width: 1184px;
-    box-sizing: content-box;
-    grid: repeat(3, 1fr) / repeat(4, 1fr);
-    gap: 16px;
-    margin: 0 auto 92px;
+  display: -ms-grid;
+  display: grid;
+  max-width: 1184px;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  grid: repeat(3, 1fr) / repeat(4, 1fr);
+  gap: 16px;
+  margin: 0 auto 92px;
 }

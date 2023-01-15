@@ -1,4 +1,6 @@
 .header__lang-link_language-ru {
-    text-decoration-line: underline;
-    box-sizing: border-box;
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
