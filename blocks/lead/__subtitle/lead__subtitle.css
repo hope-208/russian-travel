@@ -12,11 +12,26 @@
   align-self: center;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  color: white;
+  color: #ffffff;
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
-  line-height: 36px;
+  font-size: 1.88rem;
+  line-height: 2.25rem;
   text-align: center;
   margin-bottom: 64px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280.98px) {
+  .lead__subtitle {
+    margin-bottom: 56px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .lead__subtitle {
+    max-width: 90%;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin-bottom: 40px;
+  }
 }

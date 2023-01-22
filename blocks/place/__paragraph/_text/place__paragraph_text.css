@@ -9,3 +9,16 @@
 .place__paragraph_text:last-of-type {
   margin-bottom: 0;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279.98px) {
+  .place__paragraph_text {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1023.98px) {
+  .place__paragraph_text {
+    max-width: 100%;
+    margin-bottom: 25px;
+  }
+}

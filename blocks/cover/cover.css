@@ -21,3 +21,24 @@
   -ms-grid-row: 2;
   -ms-grid-column: 1;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279.98px) {
+  .cover {
+    max-width: 100%;
+    margin-bottom: 97px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023.98px) {
+  .cover {
+    max-width: 100%;
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .cover {
+    max-width: 100%;
+    margin-bottom: 64px;
+  }
+}

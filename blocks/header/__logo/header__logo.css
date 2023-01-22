@@ -8,3 +8,16 @@
   max-width: 176px;
   width: 100%;
 }
+
+@media screen and (min-width: 320.98px) and (max-width: 1279.98px) {
+  .header__logo {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__logo {
+    max-width: 44.4%;
+    height: 100%;
+  }
+}

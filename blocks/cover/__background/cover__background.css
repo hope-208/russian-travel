@@ -17,3 +17,7 @@
   cursor: url(images/sprint-3-images/Pointer.png) 2 2,
     url(images/sprint-3-images/Pointer.svg) 2 2, pointer;
 }
+
+.cover__background:focus {
+  opacity: 0.4;
+}

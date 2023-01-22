@@ -10,3 +10,15 @@
   -o-object-fit: cover;
   object-fit: cover;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279.98px) {
+  .place__image {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1023.98px) {
+  .place__image {
+    max-width: 100%;
+  }
+}
