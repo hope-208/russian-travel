@@ -1,4 +1,4 @@
-.footer__link_nav{
+.footer__link-nav{
 justify-items:start;
 text-decoration:none;
 margin-block:0;
@@ -19,29 +19,29 @@ line-height:1.13rem;
 margin-right:18px;
 }
 
-.footer__link_nav:last-of-type{
+.footer__link-nav:last-of-type{
 margin:0;
 }
 
-.footer__link_nav:hover{
+.footer__link-nav:hover{
 opacity:0.8;
 cursor:url(images/sprint-3-images/Pointer.png)22,
 url(images/sprint-3-images/Pointer.svg)22,pointer;
 }
 
-.footer__link_nav:focus{
+.footer__link-nav:focus{
 opacity:0.8;
 }
 
 @media screen and(min-width:768px) and (max-width:1279.98px){
-.footer__link_nav{
+.footer__link-nav{
 font-size:1rem;
 line-height:1.13rem;
 }
 }
 
 @media screen and(max-width:767.98px){
-.footer__link_nav{
+.footer__link-nav{
 display:-webkit-box;
 display:-webkit-flex;
 display:-ms-flexbox;

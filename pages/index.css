@@ -18,7 +18,7 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/intro/__list/_digits/intro__list_digits.css);
+@import url(../blocks/intro/__list-digits/intro__list-digits.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
@@ -31,7 +31,7 @@
 @import url(../blocks/wedsite/__link/wedsite__link.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
-@import url(../blocks/place/__paragraph/_text/place__paragraph_text.css);
+@import url(../blocks/place/__paragraph-text/place__paragraph-text.css);
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
@@ -40,5 +40,5 @@
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__link/footer__link.css);
-@import url(../blocks/footer/__link/_nav/footer__link_nav.css);
+@import url(../blocks/footer/__link-nav/footer__link-nav.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
