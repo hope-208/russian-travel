@@ -5,6 +5,7 @@
   grid-column: 1;
   display: -webkit-box;
   display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   margin-block: 0;
   margin-inline: 0;

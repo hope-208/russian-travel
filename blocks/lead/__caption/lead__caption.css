@@ -1,6 +1,7 @@
 .lead__caption {
   display: -webkit-box;
   display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   width: 100%;
   -webkit-box-sizing: border-box;

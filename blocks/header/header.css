@@ -1,6 +1,7 @@
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -10,13 +11,17 @@
   margin: 0 auto 56px;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
   justify-content: space-between;
   -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
   -ms-flex-line-pack: center;
+  -webkit-align-content: center;
   align-content: center;
   -webkit-box-align: end;
   -ms-flex-align: end;
+  -webkit-align-items: flex-end;
   align-items: flex-end;
 }
 
