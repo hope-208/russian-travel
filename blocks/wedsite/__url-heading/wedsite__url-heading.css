@@ -1,41 +1,41 @@
-.website__url-heading {
-  margin-block: 0;
-  margin-inline: 0;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -ms-flex-item-align: left;
-  -ms-grid-row-align: left;
-  -webkit-align-self: left;
-  align-self: left;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  color: #aaaaaa;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 0.75rem;
-  line-height: 1.25rem;
-  letter-spacing: 2px;
-  margin-bottom: 12px;
+.website__url-heading{
+margin-block:0;
+margin-inline:0;
+margin:0;
+padding:0;
+width:100%;
+-ms-flex-item-align:left;
+-ms-grid-row-align:left;
+-webkit-align-self:left;
+align-self:left;
+-webkit-box-sizing:border-box;
+box-sizing:border-box;
+color:#aaaaaa;
+font-style:normal;
+font-weight:400;
+font-size:0.75rem;
+line-height:1.25rem;
+letter-spacing:2px;
+margin-bottom:12px;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279.98px) {
-  .website__url-heading {
-    max-width: 100%;
-  }
+@media screen and(min-width:1024px)and(max-width:1279.98px){
+.website__url-heading{
+max-width:100%;
+}
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023.98px) {
-  .website__url-heading {
-    max-width: 100%;
-    line-height: 0.75rem;
-  }
+@media screen and (min-width:768px)and(max-width:1023.98px){
+.website__url-heading{
+max-width:100%;
+line-height:0.75rem;
+}
 }
 
-@media screen and (max-width: 767.98px) {
-  .website__url-heading {
-    max-width: 100%;
-    margin: 0 auto;
-    text-align: left;
-  }
+@media screen and(max-width:767.98px){
+.website__url-heading{
+max-width:100%;
+margin:0 auto;
+text-align:left;
+}
 }

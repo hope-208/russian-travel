@@ -1,42 +1,42 @@
-.places {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  max-width: 984px;
-  min-width: 320px;
-  list-style-type: none;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  -webkit-flex-direction: column;
-  flex-direction: column;
-  margin: 0 auto 92px;
-  padding: 0;
+.places{
+display:-webkit-box;
+display:-ms-flexbox;
+display:-webkit-flex;
+display:flex;
+max-width:984px;
+min-width:320px;
+list-style-type:none;
+-webkit-box-pack:center;
+-ms-flex-pack:center;
+-webkit-justify-content:center;
+justify-content:center;
+-webkit-box-sizing:border-box;
+box-sizing:border-box;
+-webkit-box-orient:vertical;
+-webkit-box-direction:normal;
+-ms-flex-direction:column;
+-webkit-flex-direction:column;
+flex-direction:column;
+margin:0 auto 92px;
+padding:0;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279.98px) {
-  .places {
-    max-width: 90.6%;
-  }
+@media screen and(min-width:1024px) and (max-width:1279.98px){
+.places{
+max-width:90.6%;
+}
 }
 
-@media screen and (min-width: 320.98px) and (max-width: 1023.98px) {
-  .places {
-    max-width: 93.75%;
-    margin-bottom: 90px;
-  }
+@media screen and(min-width:320.98px)and(max-width:1023.98px){
+.places{
+max-width:93.75%;
+margin-bottom:90px;
+}
 }
 
-@media screen and (max-width: 320px) {
-  .places {
-    max-width: 100%;
-    margin-bottom: 66px;
-  }
+@media screen and(max-width:320px){
+.places{
+max-width:100%;
+margin-bottom:66px;
+}
 }

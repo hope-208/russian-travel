@@ -1,24 +1,24 @@
-.cover__background {
-  grid-row: 1 / -1;
-  -ms-grid-column: 1;
-  grid-column: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  text-decoration: none;
-  width: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  opacity: 0.8;
+.cover__background{
+grid-row:1/-1;
+-ms-grid-column:1;
+grid-column:1;
+display:-webkit-box;
+display:-ms-flexbox;
+display:-webkit-flex;
+display:flex;
+text-decoration:none;
+width:100%;
+-o-object-fit:cover;
+object-fit:cover;
+opacity:0.8;
 }
 
-.cover__background:hover {
-  opacity: 0.4;
-  cursor: url(images/sprint-3-images/Pointer.png) 2 2,
-    url(images/sprint-3-images/Pointer.svg) 2 2, pointer;
+.cover__background:hover{
+opacity:0.4;
+cursor:url(images/sprint-3-images/Pointer.png)22,
+url(images/sprint-3-images/Pointer.svg)22,pointer;
 }
 
-.cover__background:focus {
-  opacity: 0.4;
+.cover__background:focus{
+opacity:0.4;
 }
