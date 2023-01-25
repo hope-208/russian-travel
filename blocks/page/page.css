@@ -1,14 +1,28 @@
-* {
-  margin: 0;
-  padding: 0;
- }
+*{
+margin:0;
+padding:0;
+}
 
-.page {
-  display: block;
-  width: 100%;
-  margin: 0 auto;
-  font-family: "Inter", Arial, sans-serif;
-  background-color: #2A2C2F;
-  text-decoration: none;
-  padding: 28px 0 24px;
+.page{
+display:block;
+width:100%;
+margin:0 auto;
+font-family:'Inter',Arial,sans-serif;
+background-color:#2a2c2f;
+text-decoration:none;
+padding:28px 0 24px;
+}
+
+@media screen and(min-width:320.98px)and(max-width:1279.98px){
+.page{
+max-width:100%;
+padding:28px 0 24px;
+}
+}
+
+@media screen and (max-width:320px){
+.page{
+max-width:100%;
+padding:16px 0 24px;
+}
 }
