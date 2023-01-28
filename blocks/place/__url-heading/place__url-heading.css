@@ -3,7 +3,7 @@
   margin-inline: 0;
   margin: 0;
   padding: 0;
-  width: 100%;
+  max-width: 100%;
   -ms-flex-item-align: left;
   -ms-grid-row-align: left;
   -webkit-align-self: left;
@@ -18,25 +18,4 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-bottom: 12px;
-}
-
-@media screen and(min-width:1024px) and(max-width:1279.98px) {
-  .place__url-heading {
-    max-width: 100%;
-  }
-}
-
-@media screen and (min-width: 768px) and(max-width:1023.98px) {
-  .place__url-heading {
-    max-width: 100%;
-    line-height: 0.75rem;
-  }
-}
-
-@media screen and(max-width:767.98px) {
-  .place__url-heading {
-    max-width: 100%;
-    margin: 0 auto;
-    text-align: left;
-  }
 }

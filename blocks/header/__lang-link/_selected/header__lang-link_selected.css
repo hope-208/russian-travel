@@ -1,4 +1,6 @@
 .header__lang-link_selected {
+  margin: 0;
+  padding: 0;
   -webkit-text-decoration-line: underline;
   text-decoration-line: underline;
 }

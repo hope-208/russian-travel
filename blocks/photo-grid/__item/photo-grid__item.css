@@ -1,7 +1,9 @@
-.photo-grid__item{
-width:100%;
--webkit-box-sizing:border-box;
-box-sizing:border-box;
--o-object-fit:cover;
-object-fit:cover;
+.photo-grid__item {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -o-object-fit: cover;
+  object-fit: cover;
 }

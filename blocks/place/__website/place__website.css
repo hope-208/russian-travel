@@ -3,43 +3,18 @@
   -ms-grid-column: 2;
   grid-area: 1 / 2;
   width: fit-content;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
+  margin: 0;
+  padding: 0;
   display: flex;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  -webkit-flex-direction: column;
-  flex-direction: column;
-  -ms-grid-row-align: end;
   align-self: end;
+  flex-direction: column;
   justify-items: flex-start;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
-  -webkit-align-items: flex-end;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 
-@media screen and(min-width:768px) and(max-width:1279.98px) {
-  .place__website {
-    max-width: 100%;
-  }
-}
-
-@media screen and(min-width:320.98px) and(max-width:767.98px) {
-  .place__website {
-    max-width: 93.75%;
-    width: 100%;
-    margin: 0 auto;
-  }
-}
-
-@media screen and(max-width:320px) {
+@media screen and (max-width: 740px) {
   .place__website {
     max-width: 90%;
     width: 100%;

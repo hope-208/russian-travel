@@ -3,6 +3,8 @@
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  margin: 0;
+  padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   color: #ffffff;
@@ -19,6 +21,13 @@
   margin-left: 0;
 }
 
+@media screen and (max-width: 425px) {
+  .header__lang-link {
+    font-size: 1.13rem;
+    line-height: 1.25rem;
+  }
+}
+/*
 @media screen and(min-width:320.98px) and (max-width: 1279.98px) {
   .header__lang-link {
     font-size: 1.5rem;
@@ -32,3 +41,4 @@
     line-height: 1.25rem;
   }
 }
+*/
