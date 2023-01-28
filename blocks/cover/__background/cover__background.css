@@ -1,24 +1,39 @@
-.cover__background{
-grid-row:1/-1;
--ms-grid-column:1;
-grid-column:1;
-display:-webkit-box;
-display:-ms-flexbox;
-display:-webkit-flex;
-display:flex;
-text-decoration:none;
-width:100%;
--o-object-fit:cover;
-object-fit:cover;
-opacity:0.8;
+.cover__background {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+  background-image: url(../../../images/sprint-3-images/cover-trains.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  text-decoration: none;
+  max-width: 1184px;
+  width: 100%;
+  object-fit: cover;
+  z-index: 1;
 }
 
-.cover__background:hover{
-opacity:0.4;
-cursor:url(images/sprint-3-images/Pointer.png)22,
-url(images/sprint-3-images/Pointer.svg)22,pointer;
+.cover__background::before,
+.cover__background::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2a2b2c;
+  opacity: 0.3;
 }
 
-.cover__background:focus{
-opacity:0.4;
+.cover__background:hover::before,
+.cover__background:hover::after {
+  opacity: 0.5;
+  cursor: url(../../../images/sprint-3-images/Pointer.png) 22,
+    url(../../../images/sprint-3-images/Pointer.svg) 22, pointer;
+}
+
+.cover__background:focus {
+  opacity: 0.5;
 }

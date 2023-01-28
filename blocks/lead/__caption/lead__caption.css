@@ -1,39 +1,39 @@
-.lead__caption{
-display:-webkit-box;
-display:-ms-flexbox;
-display:-webkit-flex;
-display:flex;
-width:100%;
--webkit-box-sizing:border-box;
-box-sizing:border-box;
-margin-block:0;
-margin-inline:0;
-margin:0;
-padding:0;
-color:#ffffff;
-font-style:normal;
-font-weight:400;
-font-size:0.63rem;
-line-height:0.87rem;
-letter-spacing:1.5px;
-text-transform:uppercase;
-text-align:left;
+.lead__caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-block: 0;
+  margin-inline: 0;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.63rem;
+  line-height: 0.87rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-align: left;
 }
 
-@media screen and(min-width:1024px) and (max-width:1279.98px){
-.lead__caption{
-width:100%;
-}
-}
-
-@media screen and(min-width:320.98px) and (max-width:1023.98px){
-.lead__caption{
-padding-left:24px;
-}
+@media screen and(min-width:1024px) and (max-width: 1279.98px) {
+  .lead__caption {
+    width: 100%;
+  }
 }
 
-@media screen and (max-width:320px){
-.lead__caption{
-padding-left:16px;
+@media screen and(min-width:320.98px) and (max-width: 1023.98px) {
+  .lead__caption {
+    padding-left: 24px;
+  }
 }
+
+@media screen and (max-width: 320px) {
+  .lead__caption {
+    padding-left: 16px;
+  }
 }
