@@ -1,6 +1,8 @@
 .place {
+  display: -ms-grid;
   display: grid;
   grid: -webkit-min-content 460px / 460px 456px;
+  grid: -webkit-min-content 460px /460px 456px;
   grid: min-content 460px /460px 456px;
   list-style-type: none;
   margin-block: 0;
@@ -20,6 +22,7 @@
 
 @media screen and (max-width: 1024px) {
   .place {
+    grid: -webkit-min-content -webkit-max-content / minmax(47.2%, 47.4%) minmax(48.9%, 49.2%);
     grid: min-content max-content / minmax(47.2%, 47.4%) minmax(48.9%, 49.2%);
     row-gap: 32px;
   }
@@ -27,6 +30,7 @@
 
 @media screen and (max-width: 768px) {
   .place {
+    grid: -webkit-min-content -webkit-max-content / 47.2% 48.9%;
     grid: min-content max-content / 47.2% 48.9%;
     row-gap: 28px;
     margin-bottom: 73px;
@@ -35,9 +39,19 @@
 
 @media screen and (max-width: 740px) {
   .place {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     max-width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: left;
+    -webkit-justify-content: left;
+    -ms-flex-pack: left;
     justify-content: left;
     margin-bottom: 50px;
   }

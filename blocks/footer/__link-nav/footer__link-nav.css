@@ -34,6 +34,9 @@
 
 @media screen and (max-width: 740px) {
   .footer__link-nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     font-size: 1.5rem;
     line-height: 1.5rem;
