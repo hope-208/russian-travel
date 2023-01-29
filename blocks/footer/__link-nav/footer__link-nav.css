@@ -15,11 +15,6 @@
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.13rem;
-  margin-right: 18px;
-}
-
-.footer__link-nav:last-of-type {
-  margin: 0;
 }
 
 .footer__link-nav:hover {
