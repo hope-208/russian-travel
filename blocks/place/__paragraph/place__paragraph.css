@@ -2,6 +2,9 @@
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: 2 / 2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   width: min(100%, 484px);
   margin: 0;

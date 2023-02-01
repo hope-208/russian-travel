@@ -1,4 +1,7 @@
 .lead {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   max-width: 984px;
   margin: 0 auto 92px;
