@@ -50,6 +50,13 @@
 @media screen and (max-width: 740px) {
   .lead__title {
     max-width: 90%;
+    font-size: 4.5rem;
+    line-height: 4.75rem;
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .lead__title {
     font-size: 2.5rem;
     line-height: 2.75rem;
     margin-bottom: 16px;

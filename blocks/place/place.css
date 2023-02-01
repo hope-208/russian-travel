@@ -35,7 +35,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 910px) {
   .place {
     grid: -webkit-min-content minmax(47.2%, -webkit-max-content) / minmax(47.2%, 340px) minmax(
         48.8%,
@@ -45,6 +45,11 @@
         48.8%,
         352px
       );
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
     -webkit-column-gap: 28px;
        -moz-column-gap: 28px;
             column-gap: 28px;
