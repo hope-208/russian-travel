@@ -2,12 +2,12 @@
   display: -ms-grid;
   display: grid;
   max-width: 1184px;
-  padding: 0;
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
   grid: repeat(3, 1fr) / repeat(4, 1fr);
   gap: 16px;
   margin: 0 auto 92px;
+  padding: 0 48px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -24,6 +24,7 @@
     grid: repeat(6, 1fr) / repeat(2, 1fr);
     gap: 16px;
     margin-bottom: 88px;
+    padding: 0 24px;
   }
 }
 
@@ -33,5 +34,6 @@
     grid: repeat(12, 1fr) / 1fr;
     gap: 12px;
     margin-bottom: 64px;
+    padding: 0;
   }
 }

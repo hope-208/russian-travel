@@ -20,7 +20,6 @@
   -webkit-flex-direction: column;
   flex-direction: column;
   margin: 0 auto 92px;
-  padding: 0;
 }
 
 @media screen and (max-width: 1024px) {

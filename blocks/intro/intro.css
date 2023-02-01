@@ -17,11 +17,13 @@
   -webkit-justify-content: left;
   justify-content: left;
   margin: 0 auto 92px;
+  padding: 0 148px;
 }
 
 @media screen and (max-width: 1024px) {
   .intro {
     max-width: 90.6%;
+    padding: 0 48px;
   }
 }
 
@@ -29,6 +31,7 @@
   .intro {
     max-width: 93.75%;
     margin-bottom: 88px;
+    padding: 0 24px;
   }
 }
 
@@ -36,5 +39,6 @@
   .intro {
     max-width: 90%;
     margin-bottom: 64px;
+    padding: 0;
   }
 }
