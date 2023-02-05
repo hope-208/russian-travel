@@ -22,7 +22,7 @@
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1150px) {
   .place {
     grid: -webkit-min-content minmax(47.4%, 440px) / minmax(47.4%, 440px) minmax(
         49.1%,
