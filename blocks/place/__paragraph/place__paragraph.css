@@ -6,7 +6,6 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: min(100%, 484px);
   margin: 0;
   padding: 0;
   -webkit-box-orient: vertical;
