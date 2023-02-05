@@ -1,9 +1,9 @@
 .cover__subtitle {
   display: -webkit-box;
- display: -webkit-flex;
- display: -ms-flexbox;
- display: flex;
- position: relative;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
   margin-block: 0;
   margin-inline: 0;
   padding: 0;
@@ -38,9 +38,11 @@
   }
 }
 
-@media screen and (max-width: 495px) {
+@media screen and (max-width: 530px) {
   .cover__subtitle {
-    max-width: 90%;
+    max-width: -webkit-min-content;
+    max-width: -moz-min-content;
+    max-width: min-content;
     font-size: 0.88rem;
     line-height: 1rem;
     margin: 16px auto 33px;

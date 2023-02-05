@@ -51,17 +51,13 @@
   }
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 530px) {
   .cover__title {
-    max-width: 90%;
-    font-size: 3.5rem;
-    line-height: 3.6rem;
-  }
-}
-@media screen and (max-width: 495px) {
-  .cover__title {
+    max-width: -webkit-min-content;
+    max-width: -moz-min-content;
+    max-width: min-content;
     font-size: 2rem;
-    line-height: 2.19rem;
+    line-height: 1;
     margin: 33px auto 0;
   }
 }

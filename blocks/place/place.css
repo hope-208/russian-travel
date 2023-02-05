@@ -1,7 +1,10 @@
 .place {
   display: -ms-grid;
   display: grid;
-  grid: -webkit-min-content minmax(46.7%, 460px) / minmax(46.7%, 460px) min(100%, 484px);
+  grid: -webkit-min-content minmax(46.7%, 460px) / minmax(46.7%, 460px) min(
+      100%,
+      484px
+    );
   grid: min-content minmax(46.7%, 460px) / minmax(46.7%, 460px) min(100%, 484px);
   list-style-type: none;
   margin-block: 0;
@@ -30,17 +33,17 @@
         456px
       );
     -webkit-column-gap: 32px;
-       -moz-column-gap: 32px;
-            column-gap: 32px;
+    -moz-column-gap: 32px;
+    column-gap: 32px;
   }
 }
 
 @media screen and (max-width: 910px) {
   .place {
-    grid: -webkit-min-content minmax(47.2%, -webkit-max-content) / minmax(47.2%, 340px) minmax(
-        48.8%,
-        352px
-      );
+    grid: -webkit-min-content minmax(47.2%, -webkit-max-content) / minmax(
+        47.2%,
+        340px
+      ) minmax(48.8%, 352px);
     grid: min-content minmax(47.2%, max-content) / minmax(47.2%, 340px) minmax(
         48.8%,
         352px
@@ -51,13 +54,13 @@
 @media screen and (max-width: 768px) {
   .place {
     -webkit-column-gap: 28px;
-       -moz-column-gap: 28px;
-            column-gap: 28px;
+    -moz-column-gap: 28px;
+    column-gap: 28px;
     margin-bottom: 73px;
   }
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 530px) {
   .place {
     display: -webkit-box;
     display: -webkit-flex;
@@ -67,12 +70,12 @@
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: left;
     -webkit-justify-content: left;
-        -ms-flex-pack: left;
-            justify-content: left;
+    -ms-flex-pack: left;
+    justify-content: left;
     margin-bottom: 50px;
     gap: 32px;
   }

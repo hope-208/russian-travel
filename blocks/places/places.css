@@ -1,7 +1,7 @@
 .places {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   max-width: 984px;
   margin-block: 0;
@@ -9,35 +9,36 @@
   padding-inline: 0px;
   list-style-type: none;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
   -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
-  margin: 0 auto 92px;
+  margin: 0 148px 92px;
 }
 
 @media screen and (max-width: 1024px) {
   .places {
     max-width: 90.6%;
+    margin: 0 48px 92px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places {
     max-width: 93.75%;
-    margin: 0 auto 90px;
+    margin: 0 24px 90px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 530px) {
   .places {
     max-width: 100%;
-    margin: 0 auto 66px;
+    margin: 0 0 66px;
   }
 }

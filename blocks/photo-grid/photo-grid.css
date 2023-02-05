@@ -28,7 +28,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 530px) {
   .photo-grid {
     max-width: 90%;
     grid: repeat(12, 1fr) / 1fr;

@@ -12,25 +12,27 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -ms-grid-row-align: end;
-      align-self: end;
+  align-self: end;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  justify-items: flex-start;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 @media screen and (max-width: 740px) {
   .place__website {
     max-width: 90%;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 16px;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
   }
 }

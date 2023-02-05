@@ -1,16 +1,16 @@
 .lead__subtitle {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   margin-block: 0;
   margin-inline: 0;
   margin: 0;
   padding: 0;
   max-width: 640px;
+  -webkit-align-self: center;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
-  -webkit-align-self: center;
   align-self: center;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -36,22 +36,23 @@
 
 @media screen and (max-width: 768px) {
   .lead__subtitle {
-    max-width: 83.3%;
+    max-width: -webkit-min-content;
+    max-width: -moz-min-content;
+    max-width: min-content;
   }
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 698px) {
   .lead__subtitle {
-    max-width: 90%;
-    font-size: 1.6rem;
-    line-height: 1.75rem;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    margin-bottom: 40px;
   }
 }
 
-@media screen and (max-width: 495px) {
+@media screen and (max-width: 530px) {
   .lead__subtitle {
     font-size: 1rem;
     line-height: 1.25rem;
-    margin-bottom: 40px;
   }
 }

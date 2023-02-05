@@ -7,15 +7,15 @@
   margin: 0 auto 92px;
   padding: 0 148px;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
   -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -34,7 +34,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 530px) {
   .lead {
     margin: 0 auto 64px;
   }

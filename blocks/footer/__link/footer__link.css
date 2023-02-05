@@ -19,7 +19,7 @@
   width: -moz-fit-content;
   width: fit-content;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 740px) {
@@ -39,5 +39,6 @@
     justify-content: flex-start;
     font-size: 1.5rem;
     line-height: 1.5rem;
+    gap: 32px;
   }
 }
